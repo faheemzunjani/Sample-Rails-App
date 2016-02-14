@@ -1,8 +1,9 @@
+<% provide(:title, "Home") %>
 <!DOCTYPE html>
 <html>
 
 <head>
-	<title>Home|Sample Rails App</title>
+	<title><%= yield(:title) %> | Sample Rails App</title>
 </head>
 
 <body>
